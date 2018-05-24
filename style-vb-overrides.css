@@ -1,0 +1,184 @@
+/* 
+	style-vb-overrides.css
+	VisGov Demo 5 theme style.css overrides.
+	style.css in the child theme is unaltered from the Genesis parent.
+	style-vb-overrides.css added in functions.php
+*/
+/*
+.site-header .wrap { 
+	background-image:url(images/wenham-header-600-160.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+*/
+body {
+	color:#red;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+}
+
+.title-area { width:448px; min-height:160px; padding:0; margin:0; }
+.header-image .site-title > a { min-height:160px; }
+.nav-primary li a:hover { color:#fff; }
+.nav-primary ul,
+.genesis-nav-menu {
+	width:auto; margin:0 auto;
+}
+
+button#mobile-genesis-nav-primary { display:none; border:3px solid green; color:#0000ff;}
+
+/*
+
+.nav-primary ul li a {
+	height:60px; margin:0; padding:0; 
+	padding:20px 15px 0px 15px; margin:0 -3px; 
+}
+
+
+.genesis-nav-menu a { color:#dfdef7; }
+.genesis-nav-menu a:hover,
+.genesis-nav-menu a:focus,
+.genesis-nav-menu .current-menu-item > a,
+.genesis-nav-menu .sub-menu .current-menu-item > a:hover,
+.genesis-nav-menu .sub-menu .current-menu-item > a:focus  {
+}
+*/
+
+
+
+/* VB landing page  - no page header, no primary nav menu */
+.home .entry-header {display:none; }
+
+/* .home-page .nav-primary {display:none; } */
+
+/****** Visual Budget plug-in styles ***********/
+.vb-chart {   }
+
+.vb-left-metric,.vb-right-chart {  }
+.vb-left-metric {  float:left; width:30%; min-width:50em; border:1px solid blue;}
+.vb-right-chart {  float:right; width:65%; min-width:500px; border:1px solid red;}
+.vb-full-chart { width:100%; min-width:400px; }
+.vb-full-chart vb-chart.vb-chart-treemap { }
+
+.vb-chart-treemap svg {  }
+.vb-chart-treemap {
+  width: 100%;
+  max-width: 1200px !important;
+  font-size: 20px;
+padding-bottom:2em; /* kludge */
+
+}
+
+/******* VB main nav stamps **********/
+/*
+.vb_main_nav {
+	display:block;
+	text-align:center;
+}
+.vb_main_nav ul {
+	width:auto;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+}
+.vb_main_nav ul li {	
+	display:inline-block;
+	height:190px;
+	width:190px;
+	margin:10px 10px;
+	overflow:hidden;
+	text-align:center;
+	vertical-align:top;
+}
+
+.vb_main_nav ul li a {
+	display:inline-block;
+	color:black;
+	width:100%;
+	border: 1px solid rgb(235,235,235);
+}
+.vb_main_nav ul li a:hover {
+	border-color:#888;
+}
+
+.vb_main_nav ul li a h2 {
+	font-size:24px;
+	line-height:26px;
+	margin:0;
+}
+.vb_main_nav ul li a p {
+	font-size:18px;
+	line-height:20px;
+	margin:0;
+}
+
+.vb_main_nav ul li .imgcrp {
+	width:100%;
+	height:120px;
+	background-color:#fff;
+	overflow:hidden;
+}
+
+.vb_main_nav ul li .imgcrp img {
+	width:100%;
+}
+
+.vb-sidebar-icon {
+	width:210px;
+	margin:0 0 0 20px;
+}
+
+figure  {
+	margin:0; padding;0; text-align:center;
+}
+*/
+.sidebar-primary,
+.title-area {
+		width: 250px;
+}
+/*
+.widget-title {
+	    background-image: linear-gradient(rgb(157, 155, 175) 0%, rgb(55, 52, 88) 1%, rgb(55, 52, 88) 49%, rgb(40, 38, 64) 50%, rgb(40, 38, 64) 99%, rgb(40, 38, 64) 100%, rgb(25, 24, 40) 100%);
+	padding:.5em 1em;
+	color: #d5def7;
+	font-size:100%;
+}
+*/
+/* VB iframe pages */
+iframe { 
+	border:1px solid #ddd;
+	background:url(images/loading_spinner.gif) no-repeat center center;
+	min-height:300px;
+}
+
+/* VB shortcode formats */
+.vb-vis-left {
+	float:left;
+	width:45%;
+	clear:left;
+}
+.vb-vis-right {
+	float:right;
+	clear:right;
+	width:50%;
+}
+
+.vb-vis-full {
+	float:left;
+	width:100%;
+	clear:both;
+}
+
+.vb-metric-block {
+	float:left;
+	width:30%;
+	clear:left;
+}
+
+@media only screen and (max-width: 880px) {
+	.vb-vis-left,
+	.vb-vis-right,
+	.vb-metric-block {
+		width:100%;
+	}
+}
