@@ -23,9 +23,11 @@ Easy Google Fonts (https://wordpress.org/plugins/easy-google-fonts/) - easy font
 
 It's generally desirable to make the Visual Budget web site consistent in appearance and style with the municipality's own web site - banner, logo, backgrounds, fonts, etc. The VB Generic theme and the Genesis framework can often be branded to match "traditional" site layouts (banner, sidebars, body, foooter) without modifing the theme templates.
 
-## Customizer
+## WordPress Customizer
 
-The WordPress Customizer can be used to easily set various options for the theme, and offers Additional CSS entries to override many theme defaults. More about the Customizer here:https://en.support.wordpress.com/customizer/.
+The WordPress Customizer can be used to easily change the appearance of the site, and offers Additional CSS entries to override many theme defaults. Changes made in the Customizer are shown in the preview frame immediately, but are not permanent until published.
+
+More about the Customizer here:https://en.support.wordpress.com/customizer/.
 
 ### Typography
 
@@ -51,14 +53,23 @@ Set using the Customizer - Header Image. The image is loaded through the WP Medi
 Set us the Customer - Background Image. The image is loaded through the WP Media Library. 1200 x 1600 pixels is a good place to start for a full-page image, and the customizer offers various options to fit it to the page. This could be a single large image or pattern, repeated vertically and horizontally. Note that most of the center of the image is likely to be blocked by the page body. More detailed styling can be written as Additional CSS.
 
 ### Menus
+Navigation menus can be defined here, as an alternative to using the WordPress dashboard Appearance->Menus.
 
-### WIdgets
+The VB Generic Theme offers two menu areas, at the top under the header, and in the footer. Both are often set to the same menu.
+
+### Widgets
+Widgets can be set here, as an alternative to using the WordPress dashboard, Appearance->Widgets.
+
+Widget areas are typically available in the right side of the header, footer, and one or more sidebars. The page layout can be controlled in the Theme Settings tab.
 
 ### Homepage Settings
+Here you can set the home page, either a static page or the blog page, as an alternative to using the WordPress Dashboard, Settings->Reading.
 
 ### Theme Settings
+Many options built into Genesis are available here, such as controlling updates, comments, breadcrumbs, archives, header and footer scripts (JavaScript), and the default page layout template (sidebar locations, width, etc.). For example, the "Content, Primary Sidebar" layout creates a right sidebar on pages set to the default template.
 
 ### Theme SEO Settings
+Sets various SEO settings, such as the page <title? tags, indexing controls, etc. They can usually be left as the default.
 
 ### Additional CSS
 
