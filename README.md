@@ -75,60 +75,25 @@ Sets various SEO settings, such as the page <title? tags, indexing controls, etc
 
 The following can be entered in the Customizer directly or as Additional CSS in the WP Customizer. Changes are previewed immediately, and don't impact the live site until published. This assumes general familiarity with simple CSS. A good CSS reference is here: https://www.w3schools.com/css/.
 
+A complete visual markup guide for the Genesis framework is here: https://my.studiopress.com/documentation/customization/guides-and-references/visual-markup-guide/
+
 #### Overall
 body // defaults for the whole page
 a // default link color
 
 #### Header, banner
-.site-header { } // full width, everything above the top menu
-.site-header .wrap {  } // the width of the main body. The header height will shrink or expand to the wrap.
+.site-header // full width band holding the header
+.site-header .wrap // the width of the main body. The header height will shrink or expand to the wrap.
 
 #### main navigation
+.nav-primary // full-width band holding the main menu
+.nav-primary wrap // width of the main body
+.nav-primary .wrap ul#menu-main-menu // the nav menu itself
+.nav-primary .wrap ul#menu-main-menu li // individual menu items
 
-#### general links
-
-
-
-
-.nav-primary,
-
-.site-inner {
-	background-color:#fff;
-	padding:1em;
-	border-radius: 8px;
-}
-.nav-primary {
-	border:none;
-}
-.nav-primary ul,
-.genesis-nav-menu {
-	width:auto;
-	margin:0;
-	background-color:rgb(0,55,108);
-	background-image:linear-gradient(rgb(0, 55, 108), rgb(0, 38, 74));
-	text-align:left;
-	margin-bottom:30px;
-	border-radius: 8px;
-}
-.nav-primary ul li a {
-	height:40px;
-	padding:12px 15px 0 15px;
-	margin:0 -3px;
-}
-.nav-primary ul li a:hover {
-	background-color:rgb(44, 105, 164)
-;;
-}
-.genesis-nav-menu a { color:#fff; }
-.genesis-nav-menu a:hover,
-.genesis-nav-menu a:focus,
-.genesis-nav-menu .current-menu-item > a,
-.genesis-nav-menu .sub-menu .current-menu-item > a:hover,
-.genesis-nav-menu .sub-menu .current-menu-item > a:focus  {
-	color:#fff;
-}
-
-/*
-	CSS Migrated from Jetpack:
-*/
+#### body content
+.site-inner // content wrapper, including sidebars
+.site-inner .content-sidebar-wrap // includes both the content and sidebar(s)
+.site-inner .content-sidebar-wrap .content // content wrapper
+.site-inner .content-sidebar-wrap .sidebar // sidebar wrapper
 
