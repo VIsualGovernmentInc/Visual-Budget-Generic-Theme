@@ -1,6 +1,6 @@
 # VisGov Theme
 
-Github project link: https://github.com/copyblogger/genesis-sample
+Github project link: https://github.com/VIsualGovernmentInc/Visual-Budget-Generic-Theme
 
 
 ## Installation Instructions
