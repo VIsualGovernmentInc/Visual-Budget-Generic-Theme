@@ -41,7 +41,7 @@ Some typical selectors used in Google Easy Fonts are:
 MAIN NAV = .genesis-nav-menu a - the main navigation menu, in the header
 
 ### Site Identity, aka the favicon
-Set it using Site Identity in the Customizer. It should be a square .jpg or .png at least 512x512 pixels. The Visual Budget favicon is loaded with the theme at wp-content/themes/vb-genesis-child-generic/images/favicon.gif.
+Set it using Site Identity in the Customizer. It should be a square .gif, .jpg or .png at least 512x512 pixels. The Visual Budget favicon is loaded with the theme at wp-content/themes/vb-genesis-child-generic/images/favicon.png.
 
 ### Colors
 Background, link and accent colors can be set here. More detailed control is available through the Typography customizer and Additional CSS, which will override these settings.
