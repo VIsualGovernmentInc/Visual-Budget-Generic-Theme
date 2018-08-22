@@ -46,6 +46,7 @@ Google Easy Fonts can be used to define Theme Typography using CSS selectors gen
 Some typical selectors used in Google Easy Fonts are:
 
 MAIN NAV = .genesis-nav-menu a - the main navigation menu, in the header
+SITE TITLE - .site-title a
 
 ### Site Identity, aka the favicon
 Set it using Site Identity in the Customizer. It should be a square .jpg or .png at least 512x512 pixels. The Visual Budget favicon is loaded with the theme at wp-content/themes/vb-genesis-child-generic/images/favicon.gif.
@@ -105,3 +106,9 @@ a // default link color
 .site-inner .content-sidebar-wrap // includes both the content and sidebar(s)
 .site-inner .content-sidebar-wrap .content // content wrapper
 .site-inner .content-sidebar-wrap .sidebar // sidebar wrapper
+<<<<<<< HEAD
+=======
+.site-inner .content-sidebar-wrap .content // content section
+.site-inner .content-sidebar-wrap .sidebar // sidebars
+
+>>>>>>> 5d843eccca2dbc7ed2fa767d84849cf59b51594c
