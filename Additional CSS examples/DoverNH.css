@@ -1,0 +1,60 @@
+body {
+	background-color:#fff;
+}
+a { color:#173d92;}
+.site-header {
+	background-color:none;
+	min-height:60px;
+	border:none;
+}
+.header-image .site-title > a,
+.title-area {
+	min-height:60px;
+	background-color:#fff;
+}
+
+.site-header .wrap {
+	padding: 0;
+}
+
+.nav-primary, .nav {
+	border:none;
+}
+
+.site-inner {
+	background-color:#fff;
+	padding:1em;
+}
+.nav-primary ul,
+.genesis-nav-menu {
+	width:auto; margin:0;
+	background-image:url(https://dovernh.vb2.visgov.com/wp-content/uploads/2018/01/graphic_nav_bg-e1517274969185.png);
+	text-align:left;
+}
+.nav-primary ul li a {
+	height:40px;
+	padding:12px 15px 0 15px;
+	margin:0 -3px;
+}
+
+h1.entry-title {
+	font-family:"Encode Sans Condensed";
+font-style: normal;
+font-size:31px;
+font-weight:500;
+color:#774a3a;
+text-transform:uppercase;
+}
+.nav-primary ul li a:hover {
+	background-color:#000;
+}
+.genesis-nav-menu a { color:#fff; }
+.genesis-nav-menu a:hover,
+.genesis-nav-menu a:focus,
+.genesis-nav-menu .current-menu-item > a,
+.genesis-nav-menu .sub-menu .current-menu-item > a:hover,
+.genesis-nav-menu .sub-menu .current-menu-item > a:focus  {
+	color:#fff;
+}
+.page-template-page_iframe {
+	background-image:none !important;}
