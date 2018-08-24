@@ -46,6 +46,7 @@ Google Easy Fonts can be used to define Theme Typography using CSS selectors gen
 Some typical selectors used in Google Easy Fonts are:
 
 MAIN NAV = .genesis-nav-menu a - the main navigation menu, in the header
+
 SITE TITLE - .site-title a
 
 ### Site Identity, aka the favicon
